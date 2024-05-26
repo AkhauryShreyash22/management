@@ -1,0 +1,23 @@
+{
+  "name": "management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^6.8.4",
+    "nodemon": "^3.1.0",
+    "openapi": "^1.0.1",
+    "serverless-http": "^3.2.0",
+    "swagger-ui-express": "^5.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "serverless-openapi-documenter": "^0.0.95"
+  }
+}
